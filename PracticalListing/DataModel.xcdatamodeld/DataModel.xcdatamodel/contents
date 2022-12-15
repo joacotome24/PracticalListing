@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="20G165" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Carpeta" representedClassName=".Carpeta" syncable="YES" codeGenerationType="class">
+        <attribute name="nombreCarpeta" attributeType="String"/>
+        <relationship name="newRelationship" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ListElement" inverseName="carpeta" inverseEntity="ListElement"/>
+    </entity>
+    <entity name="ListElement" representedClassName=".ListElement" syncable="YES" codeGenerationType="class">
+        <attribute name="name" attributeType="String"/>
+        <attribute name="state" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <relationship name="carpeta" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Carpeta" inverseName="newRelationship" inverseEntity="Carpeta"/>
+    </entity>
+    <elements>
+        <element name="ListElement" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="Carpeta" positionX="-294.9296875" positionY="-14.2734375" width="128" height="73"/>
+    </elements>
+</model>
