@@ -1,5 +1,4 @@
 # PracticalListing
-## Joaquin Tome - joacotome24 - CS50 2021
-#### Video Demo:  https://www.youtube.com/watch?v=lKYjeJrDx4E
+## Joaquin Tome - joacotome24
 #### Description:
 Practical Listing is an IOS App I created which helps people with organization. The way it works, it provides a section in which you can create different list categories, and when you open one of them you can add all the items you want to this beautiful tableView. You can check items that you have already gotten or done, delete them if you want to stop having them on the list, or even delete the whole list. I also added a search bar with which you can search for specific items on a list, which makes it even easier if you are looking for a keyword or something. The app is persisted using CoreData and SQLite, i believe is very important that an organization app is simple to use, because if not, you end up not using it, I think my app does the job of being simple but useful at the same time, and it has all the simple functionality you would need to keep being organized.
